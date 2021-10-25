@@ -10,13 +10,17 @@ import { TopoNavBarComponent } from './components/topo-nav-bar/topo-nav-bar.comp
 import { RodapeComponent } from './components/rodape/rodape.component';
 import { PaginaPricipalComponent } from './pages/pagina-pricipal/pagina-pricipal.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MapaComponent } from './components/mapa/mapa.component';
+import { CardapioComponent } from './components/cardapio/cardapio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopoNavBarComponent,
     RodapeComponent,
-    PaginaPricipalComponent
+    PaginaPricipalComponent,
+    MapaComponent,
+    CardapioComponent
   ],
   imports: [
     BrowserModule,
